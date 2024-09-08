@@ -9,3 +9,10 @@ This repository is dedicated to building a diverse collection of Minecraft Serve
 - Help build a community-driven collection for servers of all types!
 
 Everyone is welcome to contribute, and all submissions will be reviewed for creativity and usability. Let’s create the ultimate resource for Minecraft servers together!
+
+## Contribution Steps:
+1. **Fork** this repository to your GitHub account.
+2. **Add your MOTD** to the `motd.txt` file in your forked repository.
+3. Once you've added your MOTD, **commit** your changes.
+4. **Open a pull request** to merge your changes back into the main repository.
+5. Your submission will be reviewed, and once approved, added to the collection!
