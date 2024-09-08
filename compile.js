@@ -16,7 +16,10 @@ fs.readFile(motdFilePath, 'utf8', (err, data) => {
     }
 
     // Split the content by line breaks to get each line as an array
-    const lines = data.split(/\r?\n/).filter(Boolean); // Filter out any empty lines
+    let lines = data.split(/\r?\n/).filter(Boolean); // Filter out any empty lines
+	
+	// Remove any single or double quotes from the lines
+    lines = lines.map(line => line.replace(/['"]/g, "'"));
 
     // Create the custom formatted string for the minimotd config file
     let output = `icon-enabled=true\n`;
